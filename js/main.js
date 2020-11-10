@@ -92,6 +92,7 @@ function isVictoryCondition() {
 
 function gameOver(secretWord) {
   alert(`Game Over. The word was ${secretWord}`);
+  location.reload();
 }
 
 function win() {
