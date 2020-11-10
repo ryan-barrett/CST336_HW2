@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+#hangman-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    margin-left: 22rem;
+}
+
+#guessing-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: -15rem;
+}
+
+button {
+}
+
+#guess-box {
+    padding: .5rem;
+}
+
+#secret-word-label {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+#letter-box-container {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.invalid-guess {
+    background-color: pink;
+}
+
+#validation {
+    color: red;
+    margin-top: 1rem;
+    text-align: center;
+}
