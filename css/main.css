@@ -20,6 +20,12 @@ img {
 }
 
 button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
 }
 
 #guess-box {
@@ -46,4 +52,13 @@ button {
     color: red;
     margin-top: 1rem;
     text-align: center;
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#csumb-img {
+    margin: 2rem;
 }

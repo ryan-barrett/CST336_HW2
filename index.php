@@ -6,8 +6,10 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
 </head>
 <body>
-<h1>Hangman The Game!</h1>
-<hr>
+<div id="top-nav">
+    <h1>Hangman The Game!</h1>
+    <hr>
+</div>
 <main>
     <div id="letter-box-container">
         <span id="secret-word-label">Secret Word:</span>
@@ -21,6 +23,11 @@
     </div>
     <div hidden id="validation">Guess must be exactly one character</div>
 </main>
+<footer>
+    <img id="csumb-img" src="./img/csumb.png" alt="Picture of CSUMB icon"/>
+    <div>CST336 Internet Programming. 2020&copy; Ryan Barrett</div>
+    <br/>
+</footer>
 <script src="js/main.js"></script>
 </body>
 </html>
